@@ -1,0 +1,92 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.content {
+  margin: 100px 400px;
+}
+
+.navbar {
+  border-bottom: 5px solid black;
+  display: block;
+  text-align: center;
+}
+
+.navbar ul {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 50px 0 50px;
+  background-color: white;
+  color: black;
+}
+
+.navbar li .selected {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 50px 20px 50px;
+  background-color: black;
+  color: white;
+}
+
+.navbar li .selected {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+
+.navbar li a {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+
+.article-list-item {
+  text-decoration: none;
+  color: black;
+  text-emphasis: none;
+}
+
+.article-list-item p {
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+}
