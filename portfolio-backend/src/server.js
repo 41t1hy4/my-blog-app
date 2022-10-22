@@ -6,6 +6,7 @@ import path from "path";
 const app = express();
 
 app.use(express.static(path.join(__dirname, "/build`")));
+
 app.use(bodyParser.json());
 
 const withDB = async (operations, res) => {
